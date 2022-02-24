@@ -1,4 +1,4 @@
-﻿namespace Demo.Tests
+﻿namespace Demo
 {
     public class Calculadora
     {

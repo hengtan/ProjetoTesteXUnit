@@ -19,4 +19,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="01 - Traits\" />
+    <Folder Include="02 - Fixtures\" />
+    <Folder Include="03 - Order\" />
+    <Folder Include="04 - Dados Humanos\" />
+    <Folder Include="05 - Mock\" />
+    <Folder Include="06 - AutoMock\" />
+    <Folder Include="07 - FluentAssertions\" />
+  </ItemGroup>
+
 </Project>

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using Features.Clientes;
 
-namespace Features.Core
+namespace Features
 {
-    public interface IRepository<T> :IDisposable
+    public interface IClientService : IDisposable
     {
-        IEnumerable<Cliente> ObterTodos();
+        IEnumerable<Cliente> ObterTodosAtivos();
         void Adicionar(Cliente cliente);
         void Atualizar(Cliente cliente);
+        void Remover(Cliente cliente);
         void Inativar(Cliente cliente);
-        void Remover(Guid id);
     }
 }

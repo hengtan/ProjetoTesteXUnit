@@ -8,4 +8,9 @@
     <Folder Include="Core\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+  </ItemGroup>
+
 </Project>

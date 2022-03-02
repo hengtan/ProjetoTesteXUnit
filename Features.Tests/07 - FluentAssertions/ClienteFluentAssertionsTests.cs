@@ -1,4 +1,4 @@
-﻿namespace Features.Tests._07___FluentAssertions
+﻿namespace Features.Tests
 {
     public class ClienteFluentAssertionsTests
     {

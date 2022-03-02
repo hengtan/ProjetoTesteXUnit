@@ -4,7 +4,7 @@ using Features.Clientes;
 
 namespace Features
 {
-    public interface IClientService : IDisposable
+    public interface IClienteService : IDisposable
     {
         IEnumerable<Cliente> ObterTodosAtivos();
         void Adicionar(Cliente cliente);

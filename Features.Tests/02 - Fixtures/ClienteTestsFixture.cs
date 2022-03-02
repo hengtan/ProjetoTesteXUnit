@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections;
-using Bogus;
-using Bogus.DataSets;
 using Features.Clientes;
 using Xunit;
 
